@@ -22,7 +22,7 @@ function Header() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
               <li className="nav-item">
-                <Link to='/bookdoc' className="nav-link active" aria-current="page" href="#">Find a Doctor</Link>
+                <Link to='/bookdoc' className="nav-link active" aria-current="page" href="#">Find the Doctor</Link>
               </li>
               <li className="nav-item">
                 <Link to='/Services' className="nav-link active" aria-current="page" href="#">Services</Link>
