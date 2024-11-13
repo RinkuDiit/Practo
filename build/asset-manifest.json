@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.816a1566.css",
+    "main.js": "/static/js/main.d07cd614.js",
+    "static/js/453.60d00fc7.chunk.js": "/static/js/453.60d00fc7.chunk.js",
+    "static/media/qualified-dermatologist-in-sterile-gloves-examinin-2021-09-03-14-17-40-utc-1-scaled.jpg": "/static/media/qualified-dermatologist-in-sterile-gloves-examinin-2021-09-03-14-17-40-utc-1-scaled.45bc632496d6a77e7b61.jpg",
+    "static/media/__types-of-dentists.jpeg": "/static/media/64b5cb78f54b87b6b7ffe156_63ed9c8939c05bd03c382874_types-of-dentists.eb008bf1cbd6a927e788.jpeg",
+    "static/media/Orthopedic-Surgery.jpg": "/static/media/Orthopedic-Surgery.20754f740437337b42ce.jpg",
+    "static/media/iStock-1319855785.jpg": "/static/media/iStock-1319855785.12d71cc9bc2bb99d3efc.jpg",
+    "static/media/iStock-1072406518-1024x683.jpg": "/static/media/iStock-1072406518-1024x683.001d0526a13d78960687.jpg",
+    "static/media/iStock-132264568-768x512.jpg": "/static/media/iStock-132264568-768x512.8e87e779eac0c760cd97.jpg",
+    "static/media/nurse-doctor-avatars-characters_18591-65146.avif": "/static/media/nurse-doctor-avatars-characters_18591-65146.272d430660f9bdc5cbfa.avif",
+    "static/media/practo.svg": "/static/media/practo.bd942e3b2e341411e37013303d87b43e.svg",
+    "index.html": "/index.html",
+    "main.816a1566.css.map": "/static/css/main.816a1566.css.map",
+    "main.d07cd614.js.map": "/static/js/main.d07cd614.js.map",
+    "453.60d00fc7.chunk.js.map": "/static/js/453.60d00fc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.816a1566.css",
+    "static/js/main.d07cd614.js"
+  ]
+}

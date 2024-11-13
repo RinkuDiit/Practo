@@ -1,0 +1,1395 @@
+/* .home{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/premium-photo/abstract-blue-orange-shapes-white-background_14117-1124074.jpg');
+  background-size: cover;
+  background-position: center;
+  
+} */
+
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  border: solid 1px;
+}
+
+.box_reg {
+  margin: 10px auto;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box_reg button {
+  width: 100%;
+}
+
+.box_login {
+  margin: 10px auto;
+  width: 77%;
+  height: 465px;
+  background-color: #50289963;
+  border-radius: 58px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.login_page {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 60% !important;
+}
+
+.login_formmm {
+  width: 50%;
+  height: 100%;
+}
+
+.login_imagess {
+  width: 50%;
+  height: 100%;
+}
+
+.login_imagess img {
+  width: 100%;
+  height: 100%;
+}
+
+.login_page input {
+  width: 50% !important;
+}
+
+.form-group {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+form {
+  height: 100%;
+  text-align: center;
+}
+
+.form-group input {
+  width: 40%;
+  height: 30px;
+  margin: 10px;
+}
+
+.add_form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.add_form textarea {
+  width: 40%;
+  height: 100px;
+  margin: 10px;
+}
+
+.add_form select {
+  width: 40%;
+  height: 30px;
+  margin: 10px;
+}
+
+.log_reg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.profile {
+  margin: 10px auto;
+  width: 98%;
+  height: auto;
+  padding: 20px;
+
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+
+
+/* ------------------------header page------------------------- */
+
+.header {
+  width: 100%;
+  height: 72px;
+  z-index: 999;
+  background: linear-gradient(to right, #800080d1, #2575fc);
+}
+
+
+@keyframes colorChange {
+  0% {
+    background-color: red;
+  }
+
+  14% {
+    background-color: orange;
+  }
+
+  28% {
+    background-color: rgb(255, 0, 128);
+  }
+
+  42% {
+    background-color: green;
+  }
+
+  57% {
+    background-color: blue;
+  }
+
+  71% {
+    background-color: purple;
+  }
+
+  85% {
+    background-color: rgb(138, 29, 150);
+  }
+
+  100% {
+    background-color: red;
+  }
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.profiles {
+  width: auto;
+}
+
+.profiles {
+  border: none;
+  background-color: #ffffff00;
+  margin-right: 15px;
+  color: white;
+}
+
+.mobile_profile {
+  display: none;
+}
+
+.navbar-collapse ul li {
+  font-size: 17px;
+  font-weight: bold;
+
+
+}
+
+.nav-link {
+  color: white !important;
+}
+
+/* -------------------------------home css -------------------------------- */
+
+.section1 {
+  width: 100%;
+  height: auto;
+  /* background-image: url('https://www.hopkinsmedicine.org/-/media/home-care-group/images/in-home-primary-care640.jpg');
+  background-size: cover;
+  background-position:center;
+  filter: brightness(0.5); */
+
+}
+
+.section1_text {
+  width: 63%;
+  height: 600px;
+  clip-path: polygon(0 0, 100% 0, 74% 100%, 0% 100%);
+  background-color: #021e4b;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  color: white;
+}
+
+.section1_img {
+  width: 58%;
+  height: 600px;
+  position: absolute;
+  margin-right: -182px;
+  float: left;
+  right: 183px;
+  z-index: -9999;
+}
+
+.section1_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.container_section1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section1_text h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section1_img img {
+  height: 100%;
+  width: 100%;
+}
+
+.bookDoc {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search_doc {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.search_doc_inputs {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.input1 {
+  width: 25%;
+  height: 50px;
+  float: left;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  border: 1px black solid;
+}
+
+.input1 input {
+  height: 100%;
+  width: 85%;
+  border: none;
+}
+
+.input2 {
+  width: 50%;
+  height: 50px;
+  float: left;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  border: 1px black solid;
+
+
+}
+
+.input2 input {
+  height: 100%;
+  width: 90%;
+  border: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+
+}
+
+datalist {
+  background-color: red;
+}
+
+.finddd {
+  width: auto;
+  height: 50px;
+  border-radius: 0 !important;
+}
+
+.doc {
+  width: 587px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.doctorslist {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.doctorslist_container {
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+
+.doc_img {
+  width: 40%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: rgba(0, 0, 0, 0.35) -6px 0px 9px 1px; */
+
+}
+
+.doc_info {
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+
+}
+
+.doc_img img {
+  width: 100%;
+  height: 99%;
+  border-radius: 10px;
+
+}
+
+.specialties {
+  width: 363px;
+  height: auto;
+  padding: 14px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 8px;
+  margin-top: 15px;
+  transition: transform 0.2s;
+}
+
+.specialties:hover{
+  transform: scale(1.05);
+}
+
+.specialties_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.section2 {
+  padding: 20px;
+}
+
+
+
+.background {
+  position: absolute;
+  z-index: -999;
+  width: 100% !important;
+}
+
+.navbar-toggler:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.section2_discrubtion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+
+
+/* ------------------------------------------Doctor page------------------------ */
+
+.Doc_section_continer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 20px;
+}
+
+.doc_information {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 9px 0px 15px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+
+.appointment {
+  /* border-top: 1px solid ; */
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Appointment_time {
+  padding: 5px;
+  /* border: solid 2px green; */
+  width: 170px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11px;
+}
+
+
+
+.appointtttt {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 16px;
+
+}
+
+.appo_title {
+  background: linear-gradient(to right, #800080d1, #2575fc);
+  padding: 3px;
+  text-align: center;
+  /* box-shadow: inset 0px 0px 20px 5px black; */
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appointment input {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.Appointment_time {
+  cursor: pointer;
+}
+
+.Appointment_time p {
+  margin: 0;
+  color: green;
+}
+
+.appoint_date {
+  display: flex;
+  justify-content: flex-end;
+  margin: 17px;
+}
+
+.appoint_date input {
+  width: 147px !important;
+  border: solid 1px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.date {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  background-color: blueviolet;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: 400;
+}
+
+.appoint_cancel {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 !important;
+  color: white !important;
+}
+
+.reviews {
+  /* border-top: 1px solid ; */
+  padding: 20px;
+
+}
+
+.profile_reviewer {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviewer {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.reviewer h5 {
+  height: 30%;
+  margin-left: 5px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.reviewsss {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  /* border-bottom: 2px solid; */
+}
+
+
+
+/* ---------------------------------profile------------------------------------ */
+
+
+.profile_info {
+  width: 100%;
+  height: auto;
+  background-color: #0090ff3b;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid;
+}
+
+.profile_info img {
+  width: 50px;
+  height: 100%;
+}
+
+.profile_info2 {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.profile_info2 input {
+  width: 300px;
+  height: 42px;
+  margin: 10px;
+  padding: 3px;
+}
+
+.booking_history {
+  padding: 10px;
+  width: 363px;
+  background-color: #22818b;
+  height: 200px;
+  margin: 6px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.booook {
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  overflow: scroll;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+}
+
+.booking_history_details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.booking_history p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* -------------------------------Admin_penal---------------------------------- */
+
+.admin_profile {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border: 10px;
+  overflow: hidden;
+}
+
+.admin {
+  width: 20%;
+  height: 780px ;
+  background-color: #800080d1;
+  margin-top: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.admin_head {
+  width: 100%;
+  height: 63px;
+  display: flex;
+  background: linear-gradient(to right, #800080d1, #2575fc);
+  padding: 4px;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+.imgg {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.imgg img {
+  width: 100%;
+  height: 100%;
+}
+
+.admin_feature {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature {
+  width: 90%;
+  min-height:50px;
+  max-height:auto;
+  /* background-color: #80808030; */
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.feature:hover{
+  background-color: #808080;
+}
+
+.appo_featuress{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.sub_appointment{
+  width: 100%;
+  height: auto;
+
+}
+
+.sub_new_appointment{
+  display: flex;
+  justify-content: flex-end;
+}
+.sub_history_appointment{
+  display: flex;
+  justify-content: flex-end;
+}
+
+ion-icon {
+  font-size: 20px;
+}
+
+.iconnn {
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  width: 37px;
+  height: 37px;
+}
+
+.section_panel {
+  width: 80%;
+  height: auto;
+  /* overflow: scroll; */
+  padding: 10px;
+  background-color: #f0f3fb;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.fullchart{
+  width: 98%;
+  height: auto !important;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+}
+.appointment_data{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.total_appointment {
+  width: 228px;
+  height: 200px;
+  background-color: #fff;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.total_appointment canvas{
+  box-sizing: border-box;
+  display: block;
+  height: 90% ;
+  width: 100% !important;
+  margin-left: -8px;
+  margin-top: -26px;
+}
+.apexcharts-toolbar{
+  display: none !important;
+}
+.apexcharts-yaxis{
+  display:none !important;
+}
+.apexcharts-xaxis-texts-g{
+  display: none !important;
+}
+.ta_datas {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.ta_icon{
+  width:50%;
+  height: 100%;
+  /* background-color: red; */
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconss {
+  width: 70px;
+  height: 70px;
+  /* margin-left: 30px; */
+  background-color: red;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ta_data{
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding-top:10px; ;
+}
+.ta_data h6,h3,p{
+  margin: 0 !important;
+  padding: 0;
+}
+.chartss{
+  width: 105%;
+  height: 50%;
+  overflow: hidden;
+}
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+
+.booking_history_details img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.appointment_feature .booook .booking_history{
+  height: 194px !important;
+}
+
+.appoint_cancel{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 !important;
+}
+.appoint_cancel button{
+  width: 102%;
+  height: 34px;
+  border: none;
+  margin-left: -3px;
+  color: white;
+  font-weight: 400;
+}
+
+/* ============================About us ============================= */
+
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* About Us Section */
+.about-us {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background: linear-gradient(to right, #800080d1, #2575fc);
+  color: white;
+  border-radius: 8px;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mission, Vision, and Values */
+h2 {
+  color: #800080d1;
+}
+
+.values ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.values li {
+  background: #e0e0e0;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Team Section */
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.member {
+  text-align: center;
+  flex: 1 1 200px; /* Flex item will grow and shrink */
+  margin: 10px;
+}
+
+.member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #800080d1;
+}
+
+/* -----------------------------------footer------------------------------------ */
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: #800080d1;
+}
+
+.footer-section p {
+  line-height: 1.6;
+}
+
+.footer-section.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section.links ul li {
+  margin: 10px 0;
+}
+
+.footer-section.links ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section.links ul li a:hover {
+  color: #800080d1;
+}
+
+.footer-section.social .social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-section.social .social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.footer-section.social .social-icons a:hover {
+  color: #800080d1;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .team-members {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .member {
+    margin-bottom: 20px;
+  }
+}
+
+
+/* -------------------------------contact us -------------------------- */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Contact Us Section */
+.contact-us {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background: linear-gradient(to right, #800080d1, #2575fc);
+  color: white;
+  border-radius: 8px;
+}
+
+/* Form Styles */
+.contact-form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.contact-form h2 {
+  color: #800080d1;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.contact-form button {
+  background-color: #800080d1;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #2575fc;
+}
+
+/* Contact Info Section */
+.contact-info {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-us {
+    padding: 10px;
+  }
+}
+
+/* ----------------------------------------servies page -------------------------------- */
+
+/* Service.css */
+.service-page {
+  font-family: 'Arial', sans-serif;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.service-page h1 {
+  margin-bottom: 20px;
+}
+
+.service-page p {
+  margin-bottom: 40px;
+  font-size: 1.2em;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  width: 285px;
+  transition: transform 0.2s;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+
+.service-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.service-item h2 {
+  margin-top: 15px;
+}
+
+.service-item p {
+  font-size: 0.9em;
+}
+
+
+
+
+/* ---------------------------------------media Qurey------------------------------------- */
+@media screen and (max-width: 480px) {
+  .container_section1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 84px;
+    right: 0;
+    padding: 10px
+  }
+
+  .mobile_profile {
+    display: block;
+  }
+
+  .computer_profile {
+    display: none;
+  }
+
+  .section1_img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    right: 0;
+    float: left;
+    position: relative
+  }
+
+  .section1_text {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: #021e4b;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+  }
+
+  .section1_text h1 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .section1_img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .section1_text {
+    padding: 7px 35px 15px 46px;
+  }
+
+  .doc {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .doctorslist_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+
+  .doc_info {
+    width: 100%;
+  }
+
+  .doc_img {
+    width: 100%;
+
+  }
+
+  .search_doc {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .search_doc_inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input1 {
+    width: 100%;
+  }
+
+  .input2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .finddd {
+    width: 100%;
+    height: 50px;
+    border-radius: 0 !important;
+    margin-top: 10px;
+  }
+
+  .specialties {
+    width: 100%;
+  }
+
+  .Doc_section_continer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .appointment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .appointtttt {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Appointment_time {
+    margin: 10px;
+    width: 90%;
+  }
+
+  .doc_information {
+    width: 100%;
+  }
+
+  .appoint_date {
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 1px 0px black;
+    padding: 3px;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+
+  .date {
+    width: 98px;
+    height: 40px;
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    margin: 5px;
+  }
+
+  .appo_title {
+    width: 100%;
+  }
+
+  .login_imagess {
+    display: none;
+  }
+
+  .login_formmm {
+    width: 100%;
+  }
+
+  .login_formmm input {
+    width: 100%;
+  }
+
+  .box_login {
+    border-radius: 10px;
+    width: 90%;
+    height: 300px;
+
+  }
+
+  .booook {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .booking_history {
+    padding: 10px;
+    width: 100%;
+    background-color: #22818b;
+    height: 200px;
+    margin: 0;
+    margin-top: 10px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-device-width: 991px) {
+  .navbar-collapse {
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 84px;
+    right: 0;
+    padding: 10px
+  }
+
+  .mobile_profile {
+    display: block;
+  }
+
+  .computer_profile {
+    display: none;
+  }
+}
